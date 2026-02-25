@@ -25,11 +25,5 @@ jobs:
 
       - name: Show UV_PYTHON and Python info
         run: |
-          echo "UV_PYTHON=${UV_PYTHON:-not set}"
-          if [ -n "$UV_PYTHON" ]; then
-            echo "Python version from UV_PYTHON:"
-            "$UV_PYTHON" --version
-          fi
-          echo "which python3:"
           which python3
           python3 --version
