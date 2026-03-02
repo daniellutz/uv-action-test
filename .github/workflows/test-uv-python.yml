@@ -18,7 +18,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           version: "latest"
-          python-version: "3.14"
+          python-version: "3.12"
 
       - name: Check uv is installed correctly
         run: uv version

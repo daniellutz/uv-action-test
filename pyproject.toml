@@ -2,4 +2,4 @@
 name = "uv-action-test"
 version = "0.1.0"
 description = "Test project for uv GitHub Action"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
