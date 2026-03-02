@@ -1,9 +1,9 @@
 name: Test UV Python version
 
 on:
-  pull_request_target:
-    "paths-ignore":
-      - manifests/**
+  pull_request:
+    paths-ignore:
+      - "manifests/**"
 
 jobs:
   test-uv:
