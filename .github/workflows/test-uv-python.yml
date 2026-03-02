@@ -1,11 +1,9 @@
 name: Test UV Python version
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-  workflow_dispatch:
+  pull_request_target:
+    "paths-ignore":
+      - manifests/**
 
 jobs:
   test-uv:
